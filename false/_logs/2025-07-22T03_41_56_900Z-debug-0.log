@@ -1,0 +1,24 @@
+0 verbose cli D:\Загрузки\node.exe D:\Загрузки\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:D:\Загрузки\node_modules\npm\npmrc
+4 silly config load:file:D:\Полина\стажировка паравеб\react\lk-react\.npmrc
+5 silly config load:file:C:\Users\Полина\.npmrc
+6 silly config load:file:C:\Users\Полина\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm run lint
+8 verbose argv "run" "lint" "--cache" "false"
+9 verbose logfile logs-max:10 dir:D:\Полина\стажировка паравеб\react\lk-react\false\_logs\2025-07-22T03_41_56_900Z-
+10 verbose logfile D:\Полина\стажировка паравеб\react\lk-react\false\_logs\2025-07-22T03_41_56_900Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 348ms
+13 verbose cwd D:\Полина\стажировка паравеб\react\lk-react
+14 verbose os Windows_NT 10.0.19045
+15 verbose node v22.12.0
+16 verbose npm  v10.9.0
+17 notice
+17 notice New [31mmajor[39m version of npm available! [31m10.9.0[39m -> [34m11.4.2[39m
+17 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.4.2[39m
+17 notice To update run: [4mnpm install -g npm@11.4.2[24m
+17 notice  { force: true, [Symbol(proc-log.meta)]: true }
+18 verbose exit 0
+19 info ok
