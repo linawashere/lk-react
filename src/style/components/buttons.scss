@@ -1,0 +1,74 @@
+@import '../global/typography.scss';
+@import '../utils/breakpoints.scss';
+
+.button {
+    padding: 1.2rem 1.6rem;
+    display: flex;
+    gap: 1.2rem;
+    background: var(--ultramarine-default-color);
+    color: var(--text-contrast-color);
+    border-radius: 1.2rem;
+    transition: all 0.3s ease;
+    @include text-button;
+
+    @include mobile {
+        padding: 1rem 1.2rem;
+        border-radius: 1rem;
+        gap: 0.8rem;
+    }
+
+    &:hover {
+        background: var(--ultramarine-dark-color);
+    }
+
+    &:active {
+        background: var(--ultramarine-light-color-1);
+    }
+
+    &__disabled {
+        background: var(--gray-color-2);
+        color: var(--text-blind-color);
+        cursor: not-allowed;
+
+        &:hover {
+            background: var(--gray-color-2);
+        }
+
+        &:active {
+            background: var(--gray-color-2);
+        }
+    }
+
+    &__contrast {
+        background: var(--card-color);
+        color: var(--text-color);
+
+        &:hover {
+            background: var(--gray-color-1);
+        }
+
+        &:active {
+            background: var(--gray-color-2);
+        }
+    }
+
+    &__outlined {
+        background: transparent;
+        border: 1px solid var(--ultramarine-light-color-1);
+        color: var(--ultramarine-default-color);
+
+        &:hover {
+            background: var(--gray-color-1);
+        }
+
+        &:active {
+            background: var(--gray-color-2);
+        }
+
+        &.button__disabled {
+            border: 1px solid var(--border-color);
+            color: var(--text-blind-color);
+            background: var(--gray-color-2);
+        }
+    }
+}
